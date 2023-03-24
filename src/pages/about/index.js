@@ -3,17 +3,17 @@ import Dashboard from "@/components/dashboard";
 import { Box, Text } from "@chakra-ui/react";
 import Head from "next/head";
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <CustomHead title="About" description="About GE Anime" />
       <Box>
-        <Text>Home</Text>
+        <Text>About</Text>
       </Box>
     </>
   );
 }
 
-Home.getLayout = (page) => {
+About.getLayout = (page) => {
   return <Dashboard>{page}</Dashboard>;
 };
