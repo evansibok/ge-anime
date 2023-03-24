@@ -1,4 +1,4 @@
-import { animeListColumns, dummyTableData } from "@/config";
+import { animeListColumns } from "@/config";
 import useAnimes from "@/hooks/useAnimes";
 import { styles } from "@/styles/anime-list";
 import { Box, Button } from "@chakra-ui/react";
