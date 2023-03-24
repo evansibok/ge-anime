@@ -4,4 +4,9 @@ export const styles = {
     borderRadius: "8px",
     width: "80%",
   },
+  btnContainer: {
+    display: "flex",
+    gap: "8px",
+    mt: "40px",
+  },
 };
