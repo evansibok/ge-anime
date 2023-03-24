@@ -7,9 +7,11 @@ const Link = (props) => {
 };
 
 export default function App({ Component, pageProps }) {
+  const getLayout = Component.getLayout || ((page) => page);
+
   return (
     <SaasProvider linkComponent={Link} theme={theme}>
-      <Component {...pageProps} />
+      {getLayout(<Component {...pageProps} />)}
     </SaasProvider>
   );
 }

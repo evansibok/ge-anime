@@ -1,3 +1,4 @@
+import Dashboard from "@/components/dashboard";
 import Head from "next/head";
 
 export default function Home() {
@@ -12,3 +13,7 @@ export default function Home() {
     </>
   );
 }
+
+Home.getLayout = (page) => {
+  return <Dashboard>{page}</Dashboard>;
+};
