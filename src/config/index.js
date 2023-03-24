@@ -19,10 +19,3 @@ export const animeListColumns = [
     accessor: "link",
   },
 ];
-
-export const dummyTableData = [
-  {
-    title: "One Piece",
-    link: "#",
-  },
-];

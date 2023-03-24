@@ -32,7 +32,9 @@ const Dashboard = ({ children }) => {
         </Box>
       }
     >
-      <Box as="main">{children}</Box>
+      <Box as="main" sx={styles.main}>
+        {children}
+      </Box>
     </AppShell>
   );
 };

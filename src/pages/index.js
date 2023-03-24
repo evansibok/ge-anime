@@ -7,7 +7,7 @@ import { Box, Text } from "@chakra-ui/react";
 export default function Home() {
   return (
     <>
-      <CustomHead title="About" description="About GE Anime" />
+      <CustomHead title="Home" description="GE Anime Home" />
       <Box sx={styles.container}>
         <AnimeList />
       </Box>
