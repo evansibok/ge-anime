@@ -11,7 +11,10 @@ const Dashboard = ({ children }) => {
     <AppShell
       sidebar={
         <Box sx={styles.sidebar}>
-          <Box sx={styles.logo}>
+          <Box
+            sx={styles.logo}
+            onClick={() => window.open("https://anilist.co/", "_blank")}
+          >
             <Image
               src="/ge-anime-logo.png"
               alt="grassroots-anime"

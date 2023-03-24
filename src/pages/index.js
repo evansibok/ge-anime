@@ -1,14 +1,15 @@
+import AnimeList from "@/components/anime-list";
 import CustomHead from "@/components/custom-header";
 import Dashboard from "@/components/dashboard";
+import { styles } from "@/styles/home";
 import { Box, Text } from "@chakra-ui/react";
-import Head from "next/head";
 
 export default function Home() {
   return (
     <>
       <CustomHead title="About" description="About GE Anime" />
-      <Box>
-        <Text>Home</Text>
+      <Box sx={styles.container}>
+        <AnimeList />
       </Box>
     </>
   );

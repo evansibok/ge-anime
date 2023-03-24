@@ -8,3 +8,21 @@ export const sideNav = [
     link: "/about",
   },
 ];
+
+export const animeListColumns = [
+  {
+    Header: "Title",
+    accessor: "title",
+  },
+  {
+    Header: "Link",
+    accessor: "link",
+  },
+];
+
+export const dummyTableData = [
+  {
+    title: "One Piece",
+    link: "#",
+  },
+];

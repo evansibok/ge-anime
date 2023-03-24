@@ -1,7 +1,6 @@
 import CustomHead from "@/components/custom-header";
 import Dashboard from "@/components/dashboard";
 import { Box, Text } from "@chakra-ui/react";
-import Head from "next/head";
 
 export default function About() {
   return (
